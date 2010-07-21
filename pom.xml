@@ -66,22 +66,16 @@
 			<groupId>com.objy</groupId>
 			<artifactId>graph</artifactId>
 			<version>0.90</version>
+			<scope>system</scope>
+	    	<systemPath>/opt/InfiniteGraph/mac86_64/lib/InfiniteGraph-0.90.jar</systemPath>
 		</dependency>
         <dependency>
 			<groupId>com.objy</groupId>
 			<artifactId>db</artifactId>
 			<version>10.1</version>
+			<scope>system</scope>
+	    	<systemPath>/opt/InfiniteGraph/mac86_64/lib/oojava.jar</systemPath>
 		</dependency>
     </dependencies>
 
-	<repositories>
-		<repository>
-			<id>stavish-public-repository</id>
-			<name>Publicly available Maven 2 repository by Todd Stavish</name>
-			<url>http://www.stavi.sh/repository/maven2</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
 </project>
